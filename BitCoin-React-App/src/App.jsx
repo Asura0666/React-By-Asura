@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/home" element={<Home/>}/>
         <Route path="/coins" element={<Coins/>}/>
         <Route path="/coin/:id" element={<CoinDetails/>}/>
+        <Route path="*" element={<ErrorCompo message={'This Path is not exsiting...'}/>}/>
       </Routes>
       <Footer/>
     </Router>
