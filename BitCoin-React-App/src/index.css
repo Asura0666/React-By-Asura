@@ -270,4 +270,9 @@
       transform: scaleX(10) rotate(60deg);
     }
   }
+
+  .hideScroll::-webkit-scrollbar {
+    display: none;
+  }
+  
 }

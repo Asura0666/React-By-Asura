@@ -6,6 +6,8 @@ import Footer from "./Components/Footer";
 import Loader from "./Components/Loader";
 import ErrorCompo from "./Components/ErrorCompo";
 import Exchange from "./Components/Exchange compo/Exchange";
+import Coins from "./Components/coins compo/Coins";
+import CoinDetails from "./Components/coins compo/CoinDetails";
 
 const App = () => {
   return (
@@ -15,6 +17,9 @@ const App = () => {
       {/* <ErrorCompo message={<div>Error 4440</div>}/> */}
       <Routes>
         <Route path="/exchanges" element={<Exchange/>}/>
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/coins" element={<Coins/>}/>
+        <Route path="/coin/:id" element={<CoinDetails/>}/>
       </Routes>
       <Footer/>
     </Router>

@@ -10,7 +10,7 @@ const Header = () => {
       </Link>
       <ul className="flex w-1/2 justify-evenly items-center font-bold">
       <li>
-        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/home" className="nav-link">Home</Link>
       </li>
       <li>
         <Link to="/exchanges" className="nav-link">Exchange</Link>
